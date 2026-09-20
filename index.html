@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Serene Study Library</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f6f1e8;color:#263238}
+header{background:#263238;color:#fff;padding:22px 7%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:5}
+.logo{font-size:24px;font-weight:800}.logo span{color:#e7b86b}
+nav a{color:#fff;text-decoration:none;margin-left:24px;font-size:14px}
+.hero{padding:75px 7%;display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+h1{font-size:56px;line-height:1;margin:0 0 18px}.hero p{font-size:18px;line-height:1.6;color:#566}
+.btn{display:inline-block;background:#d69b45;color:#fff;padding:14px 22px;border-radius:10px;text-decoration:none;font-weight:700;margin-top:12px}
+.card{background:#fff;border-radius:24px;padding:28px;box-shadow:0 12px 35px #0001}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:25px}
+.stat{background:#f1eadf;padding:20px;border-radius:16px;text-align:center}.stat b{font-size:30px;display:block}
+section{padding:45px 7%}.title{text-align:center;margin-bottom:30px}h2{font-size:34px}
+.features{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.feature{background:#fff;padding:25px;border-radius:20px}
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.plan{background:#fff;padding:28px;border-radius:20px;text-align:center}.price{font-size:32px;font-weight:800}
+footer{background:#263238;color:#fff;padding:35px 7%;text-align:center}
+@media(max-width:750px){nav{display:none}.hero{grid-template-columns:1fr;padding-top:45px}h1{font-size:42px}.plans,.features{grid-template-columns:1fr}.stats{gap:8px}.stat{padding:14px 5px}.stat b{font-size:24px}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">Serene <span>Study</span> Library</div>
+<nav><a href="#home">Home</a><a href="#plans">Membership</a><a href="#facilities">Facilities</a><a href="#contact">Contact</a></nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div>
+<div style="font-weight:700;color:#b4772b">STUDY SMART. ACHIEVE MORE.</div>
+<h1>Your Focus.<br>Your Future.</h1>
+<p>A peaceful, comfortable and distraction-free study space in Ramkrishna Nagar, Patna. Designed for students preparing for competitive exams, college and school studies.</p>
+<a class="btn" href="#plans">Register Now →</a>
+</div>
+<div class="card">
+<h2 style="margin-top:0">Membership & Timings</h2>
+<p>Affordable study plans. Open daily for focused study.</p>
+<div class="stats">
+<div class="stat"><b>150</b>Seats</div>
+<div class="stat"><b>3</b>Shifts</div>
+<div class="stat"><b>24/7</b>Focus</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="title"><h2>Seat Availability</h2><p>Live availability can be connected to your booking system later.</p></div>
+<div class="card" style="text-align:center"><div class="stats">
+<div class="stat"><b id="total">150</b>Total</div><div class="stat"><b id="filled">0</b>Filled</div><div class="stat"><b id="free">150</b>Free</div>
+</div></div>
+</section>
+
+<section id="facilities">
+<div class="title"><h2>Study Facilities</h2></div>
+<div class="features">
+<div class="feature"><h3>📚 Silent Study Nooks</h3><p>Quiet, distraction-free study environment with dedicated desk lighting.</p></div>
+<div class="feature"><h3>❄️ Air-Conditioned Halls</h3><p>Comfortable study environment during Patna's hot weather.</p></div>
+<div class="feature"><h3>💡 Dedicated Desk Lighting</h3><p>Focused lighting at individual study desks.</p></div>
+<div class="feature"><h3>📶 High-Speed Wi-Fi</h3><p>Reliable internet access for online classes and study resources.</p></div>
+<div class="feature"><h3>🔋 Power Backup</h3><p>Backup arrangement to keep your study session running.</p></div>
+<div class="feature"><h3>📹 CCTV & Security</h3><p>Secure and monitored study premises.</p></div>
+</div>
+</section>
+
+<section id="plans">
+<div class="title"><h2>Membership Plans</h2><p>Simple plans for regular and serious students.</p></div>
+<div class="plans">
+<div class="plan"><h3>Morning Shift</h3><div class="price">₹350</div><p>Morning study session</p><a class="btn" href="#contact">Join Now</a></div>
+<div class="plan"><h3>Evening Shift</h3><div class="price">₹350</div><p>Evening study session</p><a class="btn" href="#contact">Join Now</a></div>
+<div class="plan"><h3>All 3 Shifts</h3><div class="price">₹1,000</div><p>Maximum flexibility</p><a class="btn" href="#contact">Join Now</a></div>
+</div>
+</section>
+
+<section id="contact">
+<div class="card">
+<h2>Join Serene Study Library</h2>
+<p>📍 Ramkrishna Nagar, Patna, Bihar</p>
+<p>📞 Contact: <strong>+91 XXXXXXXXXX</strong></p>
+<p>💬 WhatsApp us for seat availability and registration.</p>
+<a class="btn" href="https://wa.me/91XXXXXXXXXX">WhatsApp Registration</a>
+</div>
+</section>
+</main>
+
+<footer>© 2026 Serene Study Library · Study Smart. Achieve More.</footer>
+</body>
+</html>
